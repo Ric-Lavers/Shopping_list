@@ -8,7 +8,7 @@ shoppingTwo=[
 def listNoDouble(listOne, listTwo)
   puts "The following are duplicates and will be deleted"
   puts listOne & listTwo
-  
+
   final_list=[]
   final_list=listOne
   listTwo.each{|i|
@@ -17,7 +17,6 @@ def listNoDouble(listOne, listTwo)
     else
       final_list.push(i)
     end
-
   }
   go=true
   while go==true
